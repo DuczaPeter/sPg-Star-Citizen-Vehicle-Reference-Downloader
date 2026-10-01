@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project": "sPg Star Citizen Vehicle Reference Downloader",
+  "release_version": "V001",
+  "standard_version": "V4.2",
+  "evidence": {
+    "source": "SOURCE VERIFIED",
+    "static": "STATIC VERIFIED",
+    "runtime": {
+      "overall_label": "RUNTIME VERIFIED (limited proven scope)",
+      "proven": "Esperia Prowler Utility media -> Blob -> local processing -> ZIP",
+      "result": "PASS",
+      "not_verified": [
+        "exact file:// protocol",
+        "browser name/version"
+      ]
+    },
+    "integration": "NOT VERIFIED"
+  },
+  "tests": {
+    "pass": [
+      "canonical baseline SHA-256",
+      "main artifact single-file static structure",
+      "embedded JavaScript syntax (when Node available in release build environment)",
+      "credential/secret heuristic scan",
+      "MIT project license resolved",
+      "V001 version consistency",
+      "release-standard byte parity",
+      "Prowler manifest byte parity",
+      "Prowler six-view runtime output metadata",
+      "media -> Blob -> ZIP runtime chain for Prowler",
+      "Port -> Port-side normalization for Prowler",
+      "public package excludes MOLE/CIG screenshot",
+      "package inventory/checksum parity"
+    ],
+    "unknown": [
+      "exact protocol used during successful Prowler run",
+      "browser name/version used during successful Prowler run",
+      "separate complete Star Citizen Wiki API-specific ToS/rate-limit contract",
+      "RSI site-URL/domain naming rule applicability to GitHub repository slug"
+    ],
+    "attention": [
+      "Prowler PNG derivatives represented about 84.9% of observed unpacked payload bytes",
+      "dedicated API-specific terms/rate-limit contract not independently located"
+    ],
+    "fail": [],
+    "error": []
+  },
+  "required_gates": [
+    {
+      "name": "CANONICAL BASELINE IDENTIFIED",
+      "status": "DONE"
+    },
+    {
+      "name": "MAIN ARTIFACT IDENTIFIED",
+      "status": "DONE"
+    },
+    {
+      "name": "STATIC VALIDATION",
+      "status": "DONE"
+    },
+    {
+      "name": "CREDENTIAL / SECRET CLEANLINESS",
+      "status": "DONE"
+    },
+    {
+      "name": "LICENSE STATUS RESOLVED",
+      "status": "DONE"
+    },
+    {
+      "name": "VERSION CONSISTENCY",
+      "status": "DONE"
+    },
+    {
+      "name": "BASELINE BYTE PARITY",
+      "status": "DONE"
+    },
+    {
+      "name": "SINGLE-FILE PARITY",
+      "status": "DONE"
+    },
+    {
+      "name": "PACKAGE / INVENTORY / CHECKSUM VALIDATION",
+      "status": "DONE"
+    },
+    {
+      "name": "DOCUMENTATION + HU/EN README PARITY",
+      "status": "DONE"
+    },
+    {
+      "name": "PRIVACY / SECURITY DOCUMENTATION",
+      "status": "DONE"
+    },
+    {
+      "name": "VISUAL LEGAL CLEANLINESS",
+      "status": "DONE"
+    },
+    {
+      "name": "CORE RUNTIME MEDIA->BLOB->ZIP",
+      "status": "DONE",
+      "evidence": "Prowler Utility manifest/user runtime result"
+    },
+    {
+      "name": "DIRECT file:// BROWSER RUNTIME EVIDENCE",
+      "status": "BLOCKED",
+      "reason": "Exact protocol and browser/version were not captured in the successful Prowler run."
+    },
+    {
+      "name": "PUBLISHED REPOSITORY PARITY",
+      "status": "BLOCKED",
+      "reason": "Manual publication has not happened yet; excluded from local PACKAGE STATUS calculation per standard section 68."
+    }
+  ],
+  "optional_gates": [
+    {
+      "name": "ADDITIONAL E2E VEHICLES",
+      "status": "BLOCKED",
+      "reason": "MOLE, Polaris, Carrack, multi-tab and ground vehicle are not yet verified."
+    },
+    {
+      "name": "DEDICATED API-SPECIFIC TERMS/RATE LIMIT CONTRACT",
+      "status": "BLOCKED",
+      "reason": "Not reliably identified; public API usage documentation is source-verified."
+    },
+    {
+      "name": "SOCIAL PREVIEW",
+      "status": "BLOCKED",
+      "reason": "Not generated; package intentionally avoids a fake V001 UI mockup. User-owned style reference is included instead."
+    }
+  ],
+  "package_status": "STATICALLY VERIFIED ONLY",
+  "package_status_reason": "Only required local-package blocker is missing exact file:// browser/runtime environment evidence.",
+  "published_release_status": "BLOCKED",
+  "published_release_status_reason": "Manual publication and post-publish fresh-clone parity are pending; local runtime evidence limitation also remains."
+}

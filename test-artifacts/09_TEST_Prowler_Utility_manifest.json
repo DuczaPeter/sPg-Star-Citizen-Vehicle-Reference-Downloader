@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "app": {
+    "name": "sPg Star Citizen Vehicle Reference Downloader",
+    "version": "V001"
+  },
+  "generated_at": "2026-10-01T10:30:44.957Z",
+  "game_data_version": "4.10.1-LIVE.12660092",
+  "vehicle": {
+    "uuid": "528fdddc-c97f-4ae8-a00e-11a59fc3662d",
+    "class_name": "ESPR_Prowler_Utility",
+    "manufacturer": "Esperia",
+    "manufacturer_code": "ESPR",
+    "model": "Prowler Utility",
+    "full_name": "Esperia Prowler Utility",
+    "type": "Hajó"
+  },
+  "source": {
+    "wiki_page_title": "Prowler Utility",
+    "wiki_page_url": "https://starcitizen.tools/Prowler_Utility",
+    "media_group_mode": "auto",
+    "note": "Original files are downloaded from Star Citizen Wiki media URLs. Generated 2048px/1280px files are downscaled locally only; no upscaling is performed."
+  },
+  "files": [
+    {
+      "view": "Isometric",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Isometric.jpg",
+      "original_url": "https://media.starcitizen.tools/8/88/Prowler_Utility_in_space_-_Isometric.jpg?oewa0",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Isometric - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Isometric - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Isometric - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "view": "Above",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Above.jpg",
+      "original_url": "https://media.starcitizen.tools/0/08/Prowler_Utility_in_space_-_Above.jpg?7nhbv",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Above - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Above - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Above - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "view": "Port-side",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Port.jpg",
+      "original_url": "https://media.starcitizen.tools/b/ba/Prowler_Utility_in_space_-_Port.jpg?926az",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Port-side - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Port-side - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Port-side - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "view": "Front",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Front.jpg",
+      "original_url": "https://media.starcitizen.tools/1/16/Prowler_Utility_in_space_-_Front.jpg?ixfbb",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Front - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Front - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Front - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "view": "Rear",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Rear.jpg",
+      "original_url": "https://media.starcitizen.tools/1/17/Prowler_Utility_in_space_-_Rear.jpg?gjr7j",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Rear - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Rear - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Rear - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "view": "Below",
+      "group": "In space",
+      "wiki_file": "Prowler_Utility_in_space_-_Below.jpg",
+      "original_url": "https://media.starcitizen.tools/9/91/Prowler_Utility_in_space_-_Below.jpg?k8puh",
+      "original_width": 3840,
+      "original_height": 2160,
+      "original_mime": "image/jpeg",
+      "outputs": [
+        {
+          "path": "Original/Esperia Prowler Utility - Below - Original.jpg",
+          "version": "Original",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "path": "2048px/Esperia Prowler Utility - Below - 2048px.png",
+          "version": "2048px",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "path": "1280px/Esperia Prowler Utility - Below - 1280px.png",
+          "version": "1280px",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    }
+  ]
+}

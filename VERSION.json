@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project": "sPg Star Citizen Vehicle Reference Downloader",
+  "version": "V001",
+  "main_artifact": "sPg_Star_Citizen_Vehicle_Reference_Downloader_V001.html",
+  "canonical_sha256": "3bb0b10d5794f36346b0752d05aa3bc5dac90d4b21b4318c6b909834b7e4695b",
+  "release_standard": {
+    "version": "V4.2",
+    "path": "docs/RELEASE_STANDARD.md",
+    "sha256": "f3b1358844a9f04da5ea8bfd6fe87b3051bd052e753bd8451991b39f894972b2"
+  },
+  "repository_publication": "MANUAL BY USER",
+  "package_status": "STATICALLY VERIFIED ONLY",
+  "published_release_status": "BLOCKED",
+  "runtime_evidence": {
+    "vehicle": "Esperia Prowler Utility",
+    "media_blob_zip": "RUNTIME VERIFIED + PASS",
+    "exact_protocol": "NOT VERIFIED / UNKNOWN",
+    "browser_version": "NOT VERIFIED / UNKNOWN",
+    "game_data_version": "4.10.1-LIVE.12660092"
+  }
+}

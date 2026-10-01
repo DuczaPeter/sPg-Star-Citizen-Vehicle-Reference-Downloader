@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "package": "sPg Star Citizen Vehicle Reference Downloader V001 GitHub Release",
+  "project_version": "V001",
+  "main_artifact": {
+    "path": "sPg_Star_Citizen_Vehicle_Reference_Downloader_V001.html",
+    "sha256": "3bb0b10d5794f36346b0752d05aa3bc5dac90d4b21b4318c6b909834b7e4695b",
+    "single_file_required": true,
+    "byte_exact_required": true
+  },
+  "release_standard": {
+    "path": "docs/RELEASE_STANDARD.md",
+    "version": "V4.2",
+    "sha256": "f3b1358844a9f04da5ea8bfd6fe87b3051bd052e753bd8451991b39f894972b2",
+    "byte_exact_required": true
+  },
+  "runtime_evidence": {
+    "path": "test-artifacts/09_TEST_Prowler_Utility_manifest.json",
+    "sha256": "8d1e93de466741c4687478b403be85fa1193f771e5ed919023a067ed0611d4f9",
+    "status": "RUNTIME VERIFIED + PASS",
+    "scope": "Esperia Prowler Utility media -> Blob -> local derivatives/contact sheet -> ZIP",
+    "unknowns": [
+      "exact file:// protocol",
+      "browser name/version"
+    ]
+  },
+  "included_visuals": [
+    {
+      "path": "assets/ui-topbar-style-reference.png",
+      "sha256": "503ca894ab54706cfbd8bd497e57004507c7f4b050083f9f666cd4c9f55fb05a",
+      "classification": "USER-OWNED SPG UI STYLE REFERENCE; NOT V001 RUNTIME SCREENSHOT"
+    }
+  ],
+  "excluded_visuals": [
+    {
+      "historical_name": "08_IMAGE_01_MOLE_views.png",
+      "sha256": "683a4af0af3f219db47d2b849876d3e7cb6b41281d1414b31ac7ffb276f5886f",
+      "reason": "Contains Star Citizen/CIG ship imagery; repository redistribution rights not assumed."
+    }
+  ],
+  "license": "MIT",
+  "repository_publication": "MANUAL BY USER",
+  "package_status": "STATICALLY VERIFIED ONLY",
+  "published_release_status": "BLOCKED",
+  "status_reason": "Required exact file:// browser/runtime environment evidence is still missing; manual publication parity is also pending for published scope."
+}
